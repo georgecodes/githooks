@@ -1,0 +1,12 @@
+#!/bin/bash
+
+HOOK_REPO=`git config --get hooks.repo`
+
+if [ -z $HOOK_REPO ]; then
+  echo
+  echo "    Please configure your hooks repository using git config --global hooks.repo <repo uri>"
+  echo
+  exit -1
+fi
+
+echo "REPO $HOOK_REPO"

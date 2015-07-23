@@ -1,4 +1,5 @@
 #!/bin/bash
+#
 
 HOOK_REPO=`git config --get hooks.repo`
 

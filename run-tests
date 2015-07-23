@@ -1,0 +1,5 @@
+#!/bin/bash
+# target: pre-commit
+# description: runs the tests
+
+echo "does nothing"
